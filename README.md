@@ -13,8 +13,11 @@ go get
 ```
 assuming go 1.18 or greater is already installed on system
 
-### Compile with 
+## Add Create Database and Import data
+Download sample database [Google Drive](https://drive.google.com/file/d/1Cq8chsUKfCugmbZBA81g1CEd7IIjE5_y/view?usp=sharing).
 
+### Compile with 
+This will also create migrations in database if tables are not already created
 ```sh
 go run main.go
 ```
